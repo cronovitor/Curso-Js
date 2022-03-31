@@ -1,0 +1,13 @@
+<% Controle de fluxo (if, for...) %>
+<%= Imprime escapando caracteres %>
+<%- imprime sem escapar caracteres %>
+<%# comentario %>
+<%- include('caminho/arquivo'); %>
+
+exemplo como usar javascrip exemplo if else:
+
+<% if (algumacoisa) { %>
+  <%= exibe alguma coisa %>
+<% } else { %>
+  <%= exibe outra coisa %>
+<% } %>
